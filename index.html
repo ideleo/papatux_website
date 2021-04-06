@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="PapaTux | Web Developer & Designer">
+  <meta name="description" content="Welcome to the portfolio of Pontypridd-based freelance web designer and web developer, PapaTux. I develop affordable and mobile-friendly websites that grow businesses."/>
+  <meta name="keywords" content="web developer, web designer, html, css, javascript, python, bootstrap, git, github, sass, jquery, photoshop, figma, adobe, wordpress, php"/>
+  <!-- Facebook -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://papatux.com"/>
+  <meta property="og:image" content="https://papatux.com/img/social-logo.jpg">
+  <meta property="og:description" content="Welcome to the portfolio of Pontypridd-based freelance web designer and web developer, PapaTux. I develop affordable and mobile-friendly websites that grow businesses."/>
+  <meta property="og:title" content="PapaTux | Web Developer & Designer"/>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta property="twitter:url" content="https://papatux.com/" />
+  <meta name="twitter:image" content="https://papatux.com/img/social-logo.jpg">
+  <meta name="twitter:description" content="Welcome to the portfolio of Pontypridd-based freelance Web Developer & Web Designer, PapaTux. I develop affordable and mobile-friendly websites that grow businesses."/>
+  <meta name="twitter:title" content="PapaTux | Web Developer & Designer"/>
+  <!-- LinkedIn-->
+  <meta property="og:title" content="PapaTux | Web Developer & Designer"/>
+  <meta property="og:image" content="https://papatux.com/img/social-logo.png"/>
+  <meta property="og:description" content="Welcome to the portfolio of Pontypridd-based freelance Web Developer & Web Designer, PapaTux. I develop affordable and mobile-friendly websites that grow businesses."/>
+  <meta property="og:url" content="https://papatux.com"/>
+
+  <meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+  <!-- -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+  <script src="https://kit.fontawesome.com/fa91e1237c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/mobile.css">
+  <link rel="stylesheet" href="/css/widescreen.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff">
+  <title>PapaTux | Web Developer & Designer</title>
+</head>
+<body>
+  <!--Navigation-Bar-->
+  <nav id="navigation-bar" class="navbar">
+    <div>
+    <a href="#main-header"><img id="logo"  class="largelogo" src="img/logo.png" alt="logo-papatux"></a>  
+    </div>
+    <ul id="navigation-bar-ul" class= "navbar-ul ul-mob" onclick="scrolldiv()">
+      <li><a class="underline" href="#about" >About</a></li>
+      <li><a class="underline" href="#portfolio">Portfolio</a></div></li>
+      <li><a class="underline" href="#services">What I do</a></li>
+      <li><a class="underline" href="#testimonials">What they say of me</a></li>
+      <li><a class="underline" href="https://blog.papatux.com/" target="blank">Blog</a></li>
+      <li><a class="underline" href="#contact">Contact me</a></li>
+    </ul>
+
+    <div class="burger" onclick="burger()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+
+  </nav>
+  <!-- Header -->
+  <header id="main-header">
+    <div class="header-content animated fadeIn">
+      <p class="intro">
+        Welcome to PapaTux
+      </p>
+      <h1 class="msg-heading">
+       Web Developer & Designer
+      </h1>
+      <a href="#portfolio" class="btn1">Explore</a>
+    </div>
+  </header> 
+  <!-- Section: About me -->
+  <section id="about" class="main-bg">
+    <div class="main-about container">
+      <div class="about-left py-2 greeting" data-aos="fade-right">
+          <h3>Hi there... No wait, let me be polite...</h3>
+          <h2 style="transform:lower-case">Good<span id="greet"></span> my name is Ivano... <br>
+            I am a developer and a <span class= "x txt-type" data-wait="3000" data-words='["Designer. . .", "Visionary...", "Brew addict..."]'>
+            </span>
+          </h2>
+          <img src="/img/about-me.jpg" class="about-me">   
+      </div>
+      <div class="about-text py-2" data-aos="fade-left">
+        <h2 class="about-title">Let me tell you something about me at <span id="time"></span></h2>
+        <p>
+        <br>I'm an italian geek living in "Ponty", who thrives on evolving clients' ideas and concepts, creating a product that aids their business demands 
+          and solves solutions. Since growing up in Apulia I have had a huge interest in anything technical or that was geared around coding. 
+         That passion grew stronger when I went to university and I started to develop websites for charities and small businesses in the local community using popular CMS Systems. 
+         On moving to the UK I continued to develop my technical skills alongside furthering my self-taught knowledge of HTML5 & CSS3, Javascript, Python, and improving my knowledge with Wordpress creating E-commerce websites.
+          When I am not coding, I love volunteering, exploring the Welsh valleys and relaxing with a cuppa, listening to my latest vinyl purchases.
+        </p>
+        <h2 class="text-center" data-aos="fade-up">Skills</h2>
+        <div class="text-center skills" data-aos="fade-up">
+          <span  data-aos="fade-up" data-aos-duration="3000">
+            <i class="fab fa-html5 fa-4x"></i>
+            <i class="fab fa-css3-alt fa-4x"></i> 
+            <i class="fab fa-sass fa-4x"></i>
+            <i class="fab fa-js fa-4x"></i>
+            <i class="fab fa-wordpress fa-4x"></i>
+            <i class="fab fa-python fa-4x"></i>
+            <i class="fab fa-bootstrap fa-4x"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="second-bg">
+  <hr>
+  <div class="parallax2"></div>
+  <hr>
+  </div> 
+   <!--Button takes back to the top -->
+  <div><a class="button" id=btn-top href="#main-header"></a></div>
+  <div class="second-bg">
+   <!-- Section: Portfolio -->
+  <section id="portfolio" class="main-bg">
+    <div class="container py-2 ">
+      <div class="text-center" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Have a look at my portfolio and if you have a project, please don't hesitate to contact me.</p>
+      </div>
+      <div class="main-portfolio" data-aos="fade-right"
+     data-aos-duration="3000">
+        <div class="projects">
+          <a href="project1.html" class="face face1">
+            <div class="content text-center">
+              <img src="/img/music-database.png">
+              <h3 style="color:white">Music Database</h3>
+            </div>
+          </a>
+          <div class="face face2">
+            <div class="content">
+              <p> Where are my CDs in my music library? Find them with this app</p>
+              <p>HTML, Bootstrap, JavaScript</p>
+            </div>
+            <a href="project1.html" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="projects">
+          <a href="project2.html" class="face face1">
+            <div class="content text-center">
+              <img src="/img/membership-list.png">
+              <h3>Membership List</h3>
+            </div>
+          </a>
+          <div class="face face2">
+            <div class="content">
+              <p>This app enables the client to access their members details.</p>
+              <p>HTML, Bootstrap, JavaScript</p>
+            </div>
+            <a href="project2.html" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="projects">
+          <a href="project3.html"class="face face1">
+            <div class="content text-center">
+              <img src="/img/shopping-cart.png">
+              <h3>Shopping Cart</h3>
+            </div>
+          </a>
+          <div class="face face2">
+            <div class="content">
+              <p>Move to online sales, now more relevent than ever.</p>
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <a href="project3.html" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="second-bg">
+    <hr>
+    <div class="parallax2"></div>
+    <hr>
+  </div> 
+  <!-- Services -  What I do -->
+  <section id="services" class="main-bg">
+    <div class="container py-2">
+      <div class="text-center" data-aos="fade-up">
+      <h2>What I do</h2>
+      <p>Working as both a designer and developer, I am able to provide clients and agencies a full range of services, which are shown below.</p>
+      </div>
+      <div class="main-services">
+        <div class="service" data-aos="fade-right">
+          <i class="fas fa-industry fa-2x"></i>
+          <h3>Business Solutions</h3>
+          <p> I have been described as a great listener and that is the start of finding a Business Solution.
+            Delivering a complete solution for a business requirement is my work.
+             Working with people who know their business is a pleasure and an honour. Understanding their business requirements and then creating a solution that meets their needs and customers wants has allowed their business to run smoother. 
+          </p>
+        </div>
+        <div class="service" data-aos="fade-left">
+          <i class="fas fa-mouse fa-2x"></i>
+          <h3>Web Development</h3>
+          <p>Since my studies in computer science I have obtained experience in the real world. Initially with Front-End Web Sites, using CMS Joomla & Wordpress, I then moved to professional corporate Responsive Websites in HTML5 using Bootstrap, Javascript, CCS3, Sass and Jquery.
+            In order to deliver complete solutions, I turned to Back-End development and with training, I am now delivering solutions on the Google Cloud Platform. </p>
+        </div>
+        <div class="service" data-aos="fade-right"> 
+          <i class="fas fa-cloud fa-2x"></i>
+          <h3>The Cloud</h3>
+          <p>The Cloud is important to us all, both users and IT developers. Giving businesses the advantage in removing the worries of investment in expensive hardware and providing solutions with highly controlled running costs. The Cloud offers many IT platforms and I have focused on the highly secure, highly resilient real-time solutions delivered on Google Cloud Platform. In The Cloud I have running Python applications, I have created Databases that are resilient against unexpected failures and where data are encrypted.</p>
+        </div>
+        <div class="service"data-aos="fade-left">
+          <i class="fas fa-shopping-cart fa-2x"></i>
+            <h3>E-Commerce</h3>
+            <p>Ecommerce is fast becoming the must have for many businesses. I am able to design a space where you can sell your products and accept payment in an efficient way.
+            </p>
+        </div>
+        <br>
+        <br>
+      </div>
+    </div>
+  </section>
+  <div class="second-bg">
+    <hr>
+    <div class="parallax2"></div>
+    <hr>
+  </div> 
+  <!--Section Testimonials-->
+  <section id="testimonials" class="main-bg">
+    <div class="container py-2"  data-aos="fade-up">
+      <div class="text-center">
+        <h2>What they say of me</h2>
+        <p>See below a selection of fresh testimonials from my clients, find out why you should contact me!</p>
+      </div>
+      <ul id="slider">
+        <li>
+        <blockquote class="testimonial_quote">
+          <p>
+            As an RNIB Tech Squad volunteer, Ivano has been a very helpful, reliable and friendly guy. Quick to understand what our clients needed and picking up new systems. A great person to work with.</p>
+            <cite class="testimonial_author">Chris Turner - Technology for Life Coordinator
+              </cite>
+          </blockquote>
+        </li>
+        <li>
+          <blockquote class="testimonial_quote">
+            <p>Ivano is an absolute pleasure to work with. Warm, friendly, professional, knowledgeable and very dedicated. He is always keen to develop his skills and expertise and take on new challenges. He is unfailingly positive and enthusiastic and always willing to support his colleagues and the cause. He will be sorely missed here.</p>
+              <cite class="testimonial_author">Morgan K.</cite>
+            </blockquote>
+        </li>
+        <li>
+          <blockquote class="testimonial_quote">
+            <p>
+              Ivano's volunteered to provide remote support to Friends of Fairlands Farm CIC with our hosted Wordpress site. His knowledge, experience and advice has been invaluable in helping us configure our website, migrate it to a live environment and ensure it provides a positive experience for visitors. He has shown that he cares, not only with supporting the business objectives, but also the general welfare of his clients.</p>
+              <cite class="testimonial_author">David Martin - Director at Friends of Fairlands Farm CIC
+                </cite>
+            </blockquote>
+          </li>
+      </ul>
+    </div>
+  </section>
+  <div class="second-bg">
+    <hr>
+    <div class="parallax2"></div>
+    <hr>
+  </div> 
+  <!-- Section: Contact -->
+  <section id="contact" class="main-bg">
+    <div class="container main-contacts py-2">
+      <div class="contact-left"  data-aos="fade-right">
+        <h2>How can I help you? Get in touch</h2>
+        <div class="contacts">
+          <a href="mailto:info@papatux.com">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="cont-ico fas fa-envelope fa-stack-1x"></i>
+            </span>
+            <p>info@papatux.com</p>
+          </a>
+        </div>
+        <div class="contacts">
+          <a href="tel:+44 07956709047">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="cont-ico fas fa-mobile-alt fa-stack-1x"></i>
+            </span>
+            <p>07956709047</p>
+          </a>
+        </div>
+        <div class="contacts">
+          <a href="https://twitter.com/DevPapaTux">
+            <span class="fa-stack fa-lg">
+              <i class="cont-cir fa fa-circle fa-stack-2x"></i>
+              <i class="cont-ico fab fa-twitter fa-stack-1x"></i>
+            </span>
+            <p>DevPapaTux</p></a>
+        </div>
+        <div class="contacts">
+          <a href="https://www.linkedin.com/in/ideleo">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="cont-ico fab fa-linkedin-in fa-stack-1x"></i>
+            </span>
+            <p>Linkedin</p></a>
+        </div>
+      </div>
+      <div class="contact-form" data-aos="fade-left">
+        <h2>  Or use the form below to contact me</h2>
+        <form action="contact-form.php" method="POST" id="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" id="name" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Your e-mail" required>
+          </div>
+          <div class="form-group">
+            <input type="text" name="phone" id="phone" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" placeholder="Message" required></textarea>
+          </div>        
+          <button type="submit" id="btnSubmit" class="btn btn-default hidden">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+ 
+  <!--Footer-->
+  <footer id="main-footer" class="second-bg text-center">
+    <p>&copy; Copyright 2020, PapaTux, All Rights Reserved</p>   
+    <br>
+    <br>
+  </footer>
+
+<!-- JS section -->
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<!-- Local JS File -->
+<script src="/js_folder/scripts.js"></script>
+
+</body>
+</html>

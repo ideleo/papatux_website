@@ -1,0 +1,336 @@
+@media (max-width: 1200px) {
+  .container {
+    width: auto;
+    height: 100vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 8rem 0;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  #navigation-bar ul li a {
+    font-size: 1rem;
+  }
+
+  #about .greeting h2 {
+    font-size: 1.3rem;
+  }
+
+  #about .main-about img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #about .main-about .skills i {
+    font-size: 2.7em;
+    margin-top: 0.6rem;
+    padding: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #portfolio .container {
+    height: auto;
+  }
+
+  .main-portfolio {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .submit {
+    background: #333 url("/img/submit-blur2.png") no-repeat center center/cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .py-2 {
+    padding: 0;
+  }
+
+  .logo {
+    width: 23%;
+  }
+
+  #navigation-bar {
+    border-bottom: 0px solid #fff;
+    height: 10vh;
+  }
+
+  .container {
+    width: auto;
+    padding: 1.2rem;
+    overflow: hidden;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container2 {
+    width: 90%;
+    height: auto;
+  }
+  
+
+  #navigation-bar-ul {
+    position: fixed;
+    width: auto;
+    right: 0;
+    height: 65vh;
+    top: 10vh;
+    display: none;
+  }
+
+  #navigation-bar-ul li a {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    width: max-content;
+  }
+
+  #navigation-bar-ul li a:hover {
+    border-color: #f5f5f5;
+  }
+
+  #navigation-bar-ul li a.underline.current {
+    border-color: #f5f5f5;
+  }
+
+  .navbar-ul {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .navbar-ul-custom {
+    background-color: rgba(17, 159, 191, 0.9);
+  }
+
+  .smallLogo {
+    opacity: 1;
+    align-content: center;
+    width: 45px;
+  }
+
+  .largelogo {
+    align-content: center;
+    width: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .burger {
+    display: block;
+  }
+  .intro {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+  }
+
+  .msg-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  #main-header {
+    background: #333 url("../img/homepage-pic-mob.jpg") no-repeat center
+      center/cover;
+    background-attachment: fixed;
+  }
+
+    .parallax2 {
+      background: #333 url("../img/homepage-pic-mob.jpg") no-repeat center
+        center/cover;
+      background-attachment: fixed;
+    }
+
+    #about .main-about {
+      grid-template-columns: 1fr;
+    }
+
+    #about h2,
+    h3 {
+      text-align: center;
+    }
+
+    #about .about-title {
+      font-size: 0.9rem;
+    }
+
+    #about .greeting h2 {
+      font-size: 1.2rem;
+    }
+
+    #about .main-about img {
+      width: 55%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #about .main-about .skills i {
+      font-size: 2.5rem;
+      padding: 0.1rem;
+    }
+
+    .main-portfolio {
+      grid-gap: 0rem;
+      grid-template-columns: 1fr;
+    }
+
+    .main-portfolio .projects {
+      text-align: center;
+    }
+
+    .main-portfolio .projects .face {
+      width: auto;
+    }
+
+    .main-portfolio .projects .face1 {
+    pointer-events: none;
+    }
+
+    .lang  {
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .main-services {
+      display: grid;
+      grid-gap: 0rem;
+      grid-template-columns: 1fr;
+    }
+
+    #services .main-services .service {
+      text-align: left;
+    }
+
+    #testimonials {
+      height: 100vh;
+    }
+
+    #slider {
+      width: 100%;
+      border: 3px solid #119fbf;
+      background-color: #fff;
+    }
+
+    .main-contacts {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main-contacts h2 {
+      text-align: center;
+    }
+
+    #contact .contact-form input,
+    #contact .contact-form textarea {
+      width: 100%;
+    }
+
+    button[type="submit"] {
+      float: left;
+      margin-right: 6%;
+      margin-top: 6%;
+    }
+
+    #main-header-proj {
+      filter: blur(5px);
+      -webkit-filter: blur(5px);
+      height: 130vh;
+      color: #fff;
+      width: auto;
+      margin: 0;
+      overflow: hidden;
+    }
+    .title h2 {
+      margin-top: 1rem;
+    }
+    .bg-text {
+      top: 65%;
+      left: 50%;
+    }
+
+    .tool h3 {
+      display: block;
+      margin-left: 0rem;
+      color: #fff;
+    }
+
+    .tool {
+      text-align: center;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+    .submit-form h2,
+    .submit-form h3 {
+      color: #fff;
+    }
+    .submit {
+      background: #333 url("/img/submit-blur2.png") no-repeat center
+        center/cover;
+    }
+  }
+  .nav-active {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes navUlFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes navUlFadeOut {
+  from {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(+45deg) translate(-5px, -5px);
+}

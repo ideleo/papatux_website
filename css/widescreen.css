@@ -1,0 +1,122 @@
+@media (min-width: 1300px) {
+  p,
+  h2,
+  h3 {
+    margin: 0.75rem 0;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  /* Main Classes */
+  .container {
+    width: auto;
+    margin: 0 8rem;
+  }
+
+  .intro {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+
+  .msg-heading {
+    font-size: 4.5rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.1;
+  }
+
+  .py-1 {
+    padding: 1rem 0;
+  }
+  
+  
+  .py-2 {
+    padding: 5rem 0;
+  }
+
+  /* Navigation */
+
+  .largelogo {
+    width: 70px;
+  }
+  .smallLogo {
+    width: 55px;
+    padding-top: auto;
+  }
+
+  #navigation-bar ul li a {
+    font-size: 1.1rem;
+  }
+  /*Main Header */
+
+  /* Button takes back to the top */
+  #btn-top {
+    width: 70px;
+    height: 70px;
+  }
+
+  /* Section: About me */
+  #about .main-about {
+    grid-gap: 1.5rem;
+  }
+
+  /*Portfolio*/
+  .main-portfolio {
+    grid-gap: 2.5rem;
+  }
+
+  .main-portfolio .projects .face.face1 .content img {
+    max-width: 100px;
+  }
+
+  /* Services - What I do */
+  .main-services {
+    grid-gap: 2.5rem;
+  }
+
+  #services .main-services .service {
+    padding: 1rem;
+  }
+
+  #services h3 {
+    display: inline;
+    margin-left: 1rem;
+  }
+
+  #services .main-services .service i:hover {
+    color: #0a596b;
+  }
+  /* Section: Testimonials */
+  #slider {
+    margin: 4rem auto;
+  }
+
+  .testimonial_author {
+    color: #119fbf;
+  }
+
+  .main-contacts {
+    grid-gap: 2.5rem;
+  }
+  
+  .contact-left {
+    padding-left: 5rem;
+  }
+
+  #tools h3 {
+    font-size: 1rem;
+  }
+}
